@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "my-pdf"
+version = "0.1.0"
+description = ""
+authors = ["Olga_Nikonycheva <olga.nikonycheva@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+frontend = "^0.0.3"
+pymupdf = "^1.23.5"
+pageobject = "^0.0.52"
+pillow = "^10.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
